@@ -1,0 +1,254 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --font-primary: "Baloo + Da + 2", serif;
+    --font-secundary: "Mulish", serif;
+    --font-action: "Baloo + Da + 2", 'Times New Roman', Times, serif;
+
+}
+
+header {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    //overflow: hidden;
+    background-color: #8701CF;
+}
+
+.div2{
+    width: 100%;
+    height: 100%;
+    //overflow: hidden;
+    background-color: #FF7B29;
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-family: var(--font-secundary);
+    font-weight: 200;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.banner p{
+    font-family: var(--font-primary);
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner2{
+    position: absolute;
+    left: 5%;
+    margin-top: 40px;
+}
+
+.banner2 h1{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-family: var(--font-secundary);
+    font-weight: 200;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.banner2 p{
+    font-family: var(--font-primary);
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.conhecimentos{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 4rem);
+   // row-gap: .5rem;
+}
+
+.sessao-conhecimentos{
+    background-color: #FF7B29;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+  
+.conhecimento-header{
+    display:flex;
+    align-items: center;
+    color: #4b4b4b;
+}
+
+.conhecimento-header i{
+    font-size: 2.5rem;
+}
+
+.conhecimento-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+
+.conhecimentos-img-wrapper{
+    grid-column: 7 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+
+.conhecimentos-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.column1 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color: #8701CF;
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color: #FF7B29;
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+}
+
+.form{
+    color: #ffffff;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    display: inline-flex;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f077';
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  
+  .number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }

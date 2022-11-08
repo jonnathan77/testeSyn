@@ -1,1 +1,116 @@
-Teste syn
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide.width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="img-wrapper">
+                  <img src="img/background1.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Chega de esperar o
+                    <div>
+                        fim do mês!
+                    </div>
+                </h1>
+                <p>A Empresa proporciona para seus clientes 
+                    uma solução inovadora que transforma
+                    radicalmente o dia a dia do RH.</p>
+            </div>
+        </header>
+
+            <section class="sessao-conhecimentos">
+                <div class="conhecimentos">
+                    <div class="div2">
+                        <img src="img/background1.jpg" alt="">
+                  </div>
+                  <div class="banner2">
+                      <h1>De básico a folha Empresa
+                          <div>
+                            não tem nada!
+                          </div>
+                      </h1>
+                      <p>Nosso padrão de folha é o mais completo
+                        do mercado!
+                        Diferente dos outros fornecedores, nossos
+                        KPI's, Workflow, Gestão de benefícios e
+                        eSocial fazem parte do sistema Folha de
+                        Pagamentos Empresa sem custos adicionais!</p>
+                  </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="row">
+                    <div class="column1">
+                      <h2>
+                        Quer levar a Empresa para o seu dia a dia?
+                      </h2>
+
+                      <p>imagem</p>
+                    </div>
+                    <div class="column2">
+                      <h2>Deixa aqui seus dados que 
+                        entraremos em contato!</h2>
+
+                    <div class="form">
+                        <div>
+                            Nome completo
+                        </div>
+                        <div>
+                            <input type="text" id="fname" name="fname"><br><br>
+                        </div>
+                    </div>
+
+                    <div class="form">
+                        <div>
+                            E-mail
+                        </div>
+                        <div>
+                            <input type="text" id="fname" name="fname"><br><br>
+                        </div>
+                    </div>
+
+                    <div class="form">
+                        <div>
+                            Onde nos conheceu?
+                        </div>
+                        <div>
+                            <input type="radio" id="age2" name="age" value="60">
+                            <label for="age2">Google</label><br>  
+
+                            <input type="radio" id="age2" name="age" value="60">
+                            <label for="age2">Redes Sociais</label><br>  
+
+                            <input type="radio" id="age2" name="age" value="60">
+                            <label for="age2">Indicação</label><br>  
+                        </div>
+
+                        <div>
+                            <div>
+                                Quantidade de funcionarios
+                                <div>
+                                    <div class="number-input">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                                        <input class="quantity" min="0" name="quantity" value="1" type="number" style="border-radius: 10px;">
+                                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                      </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    </div>
+                  </div> 
+            </section>
+    </div>
+</body>
